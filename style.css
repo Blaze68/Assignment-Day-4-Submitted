@@ -1,0 +1,29 @@
+.icon{
+    color: red;
+    font-size: 30px;
+}
+body{
+    background-color: #adff2f;
+ 
+    background: #c31432; background: -webkit-linear-gradient(to right, #240b36, #c31432); background: linear-gradient(to right, #240b36, #c31432);
+}
+.grid{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 15px;
+   bottom: 600px;
+}
+.box{
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+button{
+    position: absolute;
+    top: 450px;
+    left: 600px;
+    color: chocolate;
+    size: 80px;
+}
